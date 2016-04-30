@@ -1,0 +1,107 @@
+/* Space out content a bit */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background-color: #EEE
+}
+
+.container{
+  background-color: #FFF;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 0px 15px #BDBDBD;
+  padding-top: 10px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  color: rgb(236, 236, 236);
+  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  
+  background-size: 800px 1000px;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.42), rgba(0,0,0,0)), url("cpage.jpg"); /* Safari 5.1 to 6.0 */
+  background-image: -o-radial-gradient(rgba(0, 0, 0, 0.42), rgba(0,0,0,0)), url("cpage.jpg"); /* For Opera 11.6 to 12.0 */
+  background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.42), rgba(0,0,0,0)), url("cpage.jpg"); /* For Firefox 3.6 to 15 */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.42), rgba(0,0,0,0)), url("cpage.jpg");
+
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+#timeline {
+  margin-bottom: 30px;
+}
